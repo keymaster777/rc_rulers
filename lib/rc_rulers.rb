@@ -6,7 +6,7 @@ module RcRulers
     def call(env)
       'echo debug > debug.txt';
       [200, {'Content-Type' => 'text/html'},
-        ["Hello from my Gem 1"]]
+        ["Hello from my Gem 2"]]
     end
   end
 end
